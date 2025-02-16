@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    justify-content:space-evenly;
+    gap:70px;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }

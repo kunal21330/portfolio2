@@ -1,0 +1,116 @@
+.main-header {
+    display:flex;
+    flex-direction:row;
+    width:85vw;
+    height:10vh;
+    justify-content:space-between;
+    align-items: center;
+    padding:14px;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.214);
+    border-radius: 20px;
+    font-family: 'Poppins', 'Nunito', sans-serif;
+    position: fixed;
+    z-index: 9990;
+    left:50%;
+    transform: translateX(-50%);
+    top:0;
+    background-color: #111723;
+    padding-right: 40px;
+    padding-left: 40px;
+
+
+
+
+}
+
+.left{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 400;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.centre ul {
+    display: flex;  
+    list-style: none; 
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.centre li {
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.centre li:hover{
+    color: rgba(98, 198, 252, 0.995);
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+.headpart{
+    text-decoration: none;
+    color:aliceblue
+}
+
+.headpart:hover{
+        color: rgba(98, 198, 252, 0.995);
+        transition: color 0.3s ease-in-out;
+
+}
+
+
+/* Hide menu icon by default */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: none;
+    color: white;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block; /* Show menu icon on small screens */
+    }
+  
+    .centre {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #111723;
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid rgba(240, 248, 255, 0.559);
+        
+        /* Transition Properties */
+        transform: translateY(-10px);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s linear;
+      }
+  
+      .centre.menu-open {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+  
+    .centre ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

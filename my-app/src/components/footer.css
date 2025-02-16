@@ -1,0 +1,30 @@
+#footer_main{
+    display: flex;
+    height: 15vh;
+    width:90vw;
+    border-top: 1px solid rgba(240, 248, 255, 0.199);
+    margin:0 auto;
+    color:rgba(240, 248, 255, 0.651);
+    justify-content:space-between;
+    flex-wrap: wrap-reverse;
+}
+
+#navshort{
+    display:flex;
+    gap:40px;
+}
+
+.linkss{
+    text-decoration: none;
+    color:rgba(240, 248, 255, 0.697);
+}
+
+.linkss:hover{
+    color: rgba(98, 198, 252, 0.995);
+    transition: color 0.3s ease-in-out;
+
+}
+
+#tnc{
+    min-width: 300px;
+}

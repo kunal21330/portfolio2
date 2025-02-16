@@ -1,0 +1,101 @@
+#contact_main{
+    display: flex;
+    width: 85vw;
+    align-items: center;
+    justify-content:space-between;
+    margin:0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#right_contact{
+    display: flex;
+    width:40vw; 
+    min-width: 400px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+#heading2{
+    color:aliceblue;
+    font-weight: 200;
+}
+
+.headingc{
+    color: aliceblue;
+    font-weight: 200;
+}
+.headingcs{
+    color: aliceblue;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+.headingcs:hover{
+    color: rgba(98, 198, 252, 0.995);
+    transition: color 0.3s ease-in-out;
+}
+
+#divcon{
+    display: flex;
+    gap:10px;
+    margin:0 auto;
+    margin-top: 40px;
+
+}
+
+#socialflex{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+}
+
+.iconsize{
+    height:45px;
+    width:45px;
+}
+
+
+#left_contact{
+    display: flex;
+    width:40vw; 
+    min-width: 400px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.formstyle{
+    width:35vw;
+    min-width:300px;
+    height:50px;
+    border-radius: 15px;
+    font-size:20px;
+    color: #111723;
+    background-color: rgba(218, 231, 252, 0.781);
+    padding-left: 20px;
+}
+
+#message_fill{
+    height:15vh;
+}
+
+#send_btn{
+    width: 150px;
+    height:50px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(216, 0, 249),rgb(0, 136, 255));
+    color:aliceblue;
+    font-size: 18px;
+    margin-top: 18px;
+}
+#send_btn:hover{
+    scale: 1.1;
+    transition: all 0.4s ease-in-out;
+}

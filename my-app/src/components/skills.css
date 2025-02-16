@@ -1,0 +1,43 @@
+.main_skills{
+    display:flex;
+    width:85vw;
+    flex-direction: column;
+    position:relative ;
+    left:50%;
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: center;
+
+}
+
+#heading{
+    background: linear-gradient(to right,rgba(216, 0, 249, 0.915),rgba(0, 136, 255, 0.91));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: none;
+}
+
+#subheading{
+    color:aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tools{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:60%;
+    justify-content: space-around;
+    gap:17%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    row-gap: 40px;
+}
+
+.icon{
+    height:50px;
+    width:50px;
+}
+
